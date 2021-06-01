@@ -1,9 +1,9 @@
 header{
-    background-color:#134C93;
+    background-color:#ffb6c1;
     font-family: 'Trirong', Georgia, sans-serif;}
   
   footer{
-    background-color:#134C93;
+    background-color:#ffb6c1;
     font-family: 'Trirong', Georgia, sans-serif;}
     
  
@@ -22,6 +22,9 @@ header{
 
     footer {grid-column:1/6;
             color: white;}
+
+
+
 
 
 
