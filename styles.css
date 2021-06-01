@@ -1,12 +1,17 @@
 header{
     background-color:#134C93;
-    font-family: 'Trirong', Georgia, sans-serif;
-    
-    nav a { color: black; }
-  }
+    font-family: 'Trirong', Georgia, sans-serif;}
+  
   footer{
     background-color:#134C93;
-    font-family: 'Trirong', Georgia, sans-serif;
+    font-family: 'Trirong', Georgia, sans-serif;}
     
-    nav a { color: black; }
-  }
+ 
+    .home-grid {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em}  
+
+
+    
+    
