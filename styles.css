@@ -12,6 +12,8 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;}  
 
+    
+
     header {
         grid-column: 1/4;
         grid-row: 1/2;
