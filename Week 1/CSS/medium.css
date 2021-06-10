@@ -1,1 +1,10 @@
 
+@media (min-width: 605px) and (max-width: 850px){
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-row: inherit;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    
+}
