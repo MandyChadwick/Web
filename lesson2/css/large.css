@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em) {
+    header,
+    nav,
+    main,
+    footer {
+      margin: 1em auto;
+      max-width: 1000px;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  
+    .typo img {
+      width: 800px;
+      height: auto;
+      
+    }
+  
+    .domain {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .logo {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  
+    .primarySecondary {
+      grid-column: span 1.5;
+      grid-row: 1;
+    }
+  
+    .details {
+      grid-column: span 1.5;
+      grid-row: 1;
+    }
+  
+    .description {
+      grid-column: span 3;
+      grid-row: 1;
+    }
+  
+    .personas1 {
+      grid-column: span 3;
+      grid-row: 2;
+    }
+  
+    .personas2 {
+      grid-column: span 3;
+      grid-row: 3;
+    }
+  
+    .scenarios {
+      grid-column: span 3;
+      grid-row: 4;
+    }
+  }
+  

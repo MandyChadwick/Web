@@ -1,0 +1,66 @@
+@media only screen and (min-width: 37.5em) {
+    header,
+    nav,
+    main,
+    footer {
+      margin: 1em auto;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  
+    .purpose {
+      grid-column: span 2;
+      grid-row: 1;
+    }
+  
+    .domain {
+      grid-column: span 2;
+      grid-row: 2;
+    }
+  
+    .logo {
+      grid-column: span 2;
+      grid-row: 3;
+    }
+  
+    .primarySecondary {
+      grid-column: span 2;
+      grid-row: 1;
+    }
+  
+    .details {
+      grid-column: span 2;
+      grid-row: 2;
+    }
+  
+    .typo {
+      width: 600px;
+      height: auto;
+      margin: auto;
+      grid-column: span 2;
+    }
+  }
+  
+  .description {
+    grid-column: span 2;
+    grid-row: 1;
+  }
+  
+  .personas1 {
+    grid-column: span 2;
+    grid-row: 2;
+  }
+  
+  .personas2 {
+    grid-column: span 2;
+    grid-row: 3;
+  }
+  
+  .scenarios {
+    grid-column: span 2;
+    grid-row: 4;
+  }
+  
