@@ -1,8 +1,8 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #f1faee;
+    background-color: #DCEED1;
   }
   
   header,
@@ -21,7 +21,7 @@ body {
   }
   
   nav {
-    background-color: #a8dadc;
+    background-color: #AAC0AA;
     font-size: 16px;
   }
   
@@ -61,18 +61,18 @@ body {
     padding: 1.25rem;
   }
   
-  h1 {
-    font-family: "Poppins SemiBold", sans-serif;
+  h1{
+    font-family: "Georgia", serif;
     font-size: 30px;
   }
   
   h2 {
-    font-family: "Poppins Medium", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 25px;
   }
   
   h3 {
-    font-family: "Poppins Medium", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 20px;
     text-align: center;
   }
