@@ -1,4 +1,8 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+body {
+    font-family: 'GFS Didot'
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
