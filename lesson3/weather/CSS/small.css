@@ -8,6 +8,8 @@ main {
     padding: 10px
   }
   
+footer {border-style:solid;}
+
 
 
 
@@ -206,6 +208,34 @@ header img {
     margin-left: 20px;
     font-size: .9rem;
 }
+
+
+
+
+
+
+.gardenarticle picture {float:right}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Larger viewports */
