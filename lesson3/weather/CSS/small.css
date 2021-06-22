@@ -1,3 +1,95 @@
+
+
+
+main {
+    max-width:960px;
+    margin:0 auto;
+    background-color:#DCEED1;
+    padding: 10px
+  }
+  
+
+
+
+  .banner {
+    display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+    flex-wrap: nowrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color:  #A18276;
+}
+.flex-col, .column-col, .grid-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
+}
+.flex, .column, .grid {
+	border-right: 1px solid #333;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 body {
     font-family: 'GFS Didot'
@@ -118,7 +210,7 @@ header img {
     font-style: italic;
 }
 
-
+img {max-width: 100%;}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
