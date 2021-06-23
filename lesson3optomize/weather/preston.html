@@ -25,7 +25,7 @@
     <link href="CSS/large.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
     <script defer src="js/banner.js"></script>
-
+    <script defer src="js/windchilljs.js"></script>
 
 </head>
 
@@ -79,19 +79,19 @@
             </picture>
           </div>
     
-        <section class="stats">
+          <section class="stats">
             <h3>Weather Summary</h3>
             <div class="weatherdetails">
                 <p class="label"> Currently:</p>
                 <p class="value"> Sunny</p>
-                <p class="label"> High:</p>
-                <p class="value"> 76 &deg;F</p>
+                <p class="label">High:</p> 
+                <p class="value"> <span id="temp">57</span>&deg;</p>
                 <p class="label"> Wind Chill:</p>
-                <p class="value"> &deg;F</p>
+                <p class="value"> <span id="windChill"></span>&deg;</p>
                 <p class="label"> Humidity:</p>
                 <p class="value"> 69%</p>
                 <p class="label"> Wind Speed:</p>
-                <p class="value"> 5 mph</p>
+                <p class="value"> <span id="wind">15</span></p>
         </section>
 </div>
 </div>
