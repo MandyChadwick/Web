@@ -17,3 +17,8 @@ footer{
     margin: auto;
     max-width: 960px;
   }
+ 
+  
+  nav ul.hide {display: flex; 
+    justify-content: center;
+      }
