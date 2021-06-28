@@ -1,3 +1,14 @@
+footer {
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    max-width: 960px;
+    text-align: center;
+    margin:  0 auto;
+}
+footer img {max-width:  100%;}
+
 .lazymontage {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,3 +39,5 @@ img {/*
     margin:0 auto
 ;}
 h1{text-align:center;}
+
+
