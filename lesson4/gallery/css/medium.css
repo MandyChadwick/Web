@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35rem) {
+
+
+    .lazymontage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /*
+    img {
+        display: block;
+        min-width: 50px;
+        min-height: 50px; 
+        width: 100%;*/
+        
+        
+    }
+    
+    
