@@ -5,7 +5,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    img:hover {
+    .lazyload:hover {
         box-shadow: 20px 20px 30px 15px dimgrey ;
     }
     nav ul li a {padding: .6rem 1rem}
