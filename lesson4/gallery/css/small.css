@@ -14,9 +14,6 @@ img {/*
     box-shadow: 10px 10px 30px 5px dimgrey ;
 }
 
-img:hover {
-    box-shadow: 20px 20px 30px 15px dimgrey ;
-}
 
  img[data-src]{
     filter: blur(0.8em);
