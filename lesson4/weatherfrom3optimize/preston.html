@@ -26,6 +26,7 @@
     <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
     <script defer src="js/banner.js"></script>
     <script defer src="js/windchilljs.js"></script>
+    <script defer src="js/lazyload.js"></script>
 
 </head>
 
@@ -65,104 +66,68 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h1>Preston Idaho</h1>
-
-        <div class="overlay">
-     <div class="herodiv">
-
-        <div>
-            <picture>
-              <source media="(min-width: 850px)" srcset="images/hero1500.jpg">
-              <source media="(min-width: 650px)" srcset="images/hero1000.jpg">
-              <source media="(min-width: px)" srcset="images/hero500.jpg">
-              <img src="images/hero500.jpg" alt="Heroimage">
-            </picture>
-          </div>
-    
-          <section class="stats">
-            <h3>Weather Summary</h3>
-            <div class="weatherdetails">
-                <p class="label"> Currently:</p>
-                <p class="value"> Sunny</p>
-                <p class="label">High:</p> 
-                <p class="value"> <span id="temp">57</span>&deg;</p>
-                <p class="label"> Wind Chill:</p>
-                <p class="value"> <span id="windChill"></span>&deg;</p>
-                <p class="label"> Humidity:</p>
-                <p class="value"> 69%</p>
-                <p class="label"> Wind Speed:</p>
-                <p class="value"> <span id="wind">15</span></p>
-        </section>
-</div>
-</div>
-
-
-
-        <h2>5 Day Forcast</h2>
-        <div class="flex">
-
-
-
-
-
-
+        <main>
+            <body>
+                <h1>Lazy Load with Intersection Observer </h1>
+                <div class="lazymontage">
+                    <figure>
+                        <img src='images/placeholder.jpg' data-src='images/dave-hoefler-suf2PfBNdx4-unsplash300X400.jpg'
+                            alt="image">
             
-            <div class="flex-col">
-                <span class="col-head"></span>
-                <img src="images/sunshine.png" alt="sunny icon">
-                <span class="data">sunny</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-head"></span>
-                <img src="images/sunandcloud.png" alt="partly cloudy icon">
-                <span class="data">partly cloudy</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-head"></span>
-                <img src="images/sunandcloud.png" alt="partly cloudy icon">
-                <span class="data">partly cloudy</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-head"></span>
-                <img src="images/sunandcloud.png" alt="partly cloudy icon">
-                <span class="data">partly cloudy</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-head"></span>
-                <img src="images/sunandcloud.png" alt="partly">
-                <span class="data">partly cloudy</span>
-            </div>
-
-        </div>
-
-
-
-
-
-
-
-
-
-        
-        <div class="gardenarticle">
-            <picture>
-                <img src="images/Happy_gardenersmall.jpg" alt="gardener in Preston Idaho" width="65%">
-    
-            </picture>
-
-            <h2>Watson Gardening Advice</h2>
-        <p>One of the great members of our community is Jane Watson. She has been gardening in Preston for decades. 
-            Lately, she has started a gardeners forum to train younger gardeners to grow flowers and fruits in the local climate.
-             A gardening club is not new to Preston, but Jane brings an unmatched expertise. She and her family have been gardening 
-             in Idaho for 8 generations. We spoke to one of her forum members lately.  This member is named Todd Stapley. Todd has 
-             learned so much from Jane. He use to have a simple 50 foot square garden.  Now he is growing 10 acres of rye, radishes, 
-             carrots, potatoes, and more. He said of Jane, “ She knows how to inspire me. She is not young but can produce enough food
-              on her lot to feed a small Army. She is so generous with her produce. I would like to contribute to our local food bank 
-              with this years crop in honor o her!” So if you are checking the weather to see if you should garden, then the answer is 
-              Yes! Maybe even give Jane a ring and join her Forum.
-            </p>
-            </div>
-        
+                        <figcaption>A freshly harvested hay field</figcaption>
+                    </figure>
+            
+                    <figure>
+                        <img src='images/placeholder.jpg' data-src='images/david-gylland-eNqDKoFFmIE-unsplash300x400.jpg'
+                            alt="image">
+            
+                        <figcaption>The clouds pile high over the mountain</figcaption>
+                    </figure>
+            
+                    <figure>
+                        <img src='images/placeholder.jpg' data-src='images/devon-janse-van-rensburg-_t-gbRuaBRE-unsplash300x400.jpg'
+                            alt="image">
+            
+                        <figcaption>Dirt biking at the dunes</figcaption>
+                    </figure>
+            
+                    <figure>
+                        <img src='images/placeholder.jpg' data-src='images/johannes-plenio-600dw3-1rv4-unsplash300x400.jpg'
+                            alt="image">
+                        <figcaption>A welcome rain</figcaption>
+                    </figure>
+            
+                    <figure>
+                        <img src='images/placeholder.jpg' data-src='images/jp-valery-CAKlyn9-OP4-unsplash300x400.jpg' alt="image">
+                        <figcaption>Buffalo roam the Northern areas</figcaption>
+                    </figure>
+            
+                    <figure>
+            
+                        <img src='images/placeholder.jpg' data-src='images/neda-astani-KWTkd7mHqKE-unsplash300x400.jpg' alt="image">
+                        <figcaption>Souther Idaho in spring</figcaption>
+                    </figure>
+            
+                       <figure>
+                        <img src='images/placeholder.jpg' data-src='images/PIXNIO-53370-6177x4118640x404300x400.jpg'
+                            alt="image">
+                        <figcaption>The Prairie in the East</figcaption>
+                    </figure>
+            
+                    <figure>
+            
+                        <img src='images/placeholder.jpg' data-src='images/thewayofcolor-JyOeDt0kRYc-unsplash300x400.jpg' alt="image">
+                        <figcaption>The prairie after the rain</figcaption>
+                    </figure>
+            
+                       <figure>
+                        <img src='images/placeholder.jpg' data-src='images/wolfgang-hasselmann-bR_-gllg7Bs-unsplash300x400.jpg'
+                            alt="image">
+                        <figcaption>Lakes and Sky are a beautiful combination</figcaption>
+                    </figure>
+            
+                </div>
+            </main>
 
     </main>
 

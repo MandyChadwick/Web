@@ -1,5 +1,37 @@
 
 
+.lazymontage {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    grid-gap: 30px;
+
+}
+
+img {/*
+    min-width: 50px;
+    min-height: 200px; */
+   
+    width: 100%;
+    box-shadow: 10px 10px 30px 5px dimgrey ;
+}
+
+
+ img[data-src]{
+    filter: blur(0.8em);
+
+  }
+  
+   img{
+    filter: blur(0em) ;
+        transition: filter 1.5s;
+  }
+  main { max-width: 960px;
+    margin:0 auto
+;}
+h1{text-align:center;}
+
+
 
 main {
     max-width:960px;
