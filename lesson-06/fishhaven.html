@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fish Haven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Fish Haven Weather Brother Page">
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="CSS/normalize.css" rel="stylesheet">
+      <link href="CSS/small.css" rel="stylesheet">
+    <link href="CSS/medium.css" rel="stylesheet">
+    <link href="CSS/large.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/windchilljs.js"></script>
+    <script defer src="icon/fishhavenforecast.js"></script>
+    <script defer src="icon/fishhavenweatherapi.js"></script>
+
+</head>
+
+<body>
+
+
+    <br>
+    <!-- HEADER HERE -->
+    <header>
+        <header>
+            <picture>
+                <img src="images/weatherbrothericon.png">
+            </picture>
+            <section class="headings">
+                <h1>Weather Brother</h1>
+                <div class="m">When you want to play we show you the day!</div>
+            </section>
+        </header>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Fish Haven Idaho</h1>
+
+        <div class="overlay">
+            <div class="herodiv">
+
+                <div>
+                    <picture>
+                        <source media="(min-width: 850px)" srcset="images/fishhavenhero1500.jpg">
+                        <source media="(min-width: 650px)" srcset="images/fishhavenhero1000.jpg">
+                        <source media="(min-width: px)" srcset="images/fishhavenhero500.jpg">
+                        <img src="images/fishhavenhero500.jpg" alt="Heroimage">
+                    </picture>
+                </div>
+
+                <section class="stats">
+                    <h3>Weather Summary</h3>
+                    <div class="weatherdetails">
+
+                        <p class="label">High:</p>
+                        <p class="value"> <span id="temp">57</span>&deg;</p>
+                        <p class="label"> Wind Chill:</p>
+                        <p class="value"> <span id="windChill"></span>&deg;</p>
+                        <p class="label"> Humidity:</p>
+                        <p class="value"> 69%</p>
+                        <p class="label"> Wind Speed:</p>
+                        <p class="value"> <span id="wind">15</span></p>
+                </section>
+            </div>
+        </div>
+
+
+
+        <h2>5 Day Forcast</h2>
+        <div class="forecastBox"></div>
+
+
+
+
+
+
+
+
+        <div class="gardenarticle">
+            <picture>
+                <img src="images/fishhavenfisherman400x541.jpg" alt="gardener in Preston Idaho" width="65%">
+
+            </picture>
+
+            <h2>Fishing Never Gets Old</h2>
+            <p>For Paul Fox, fishing never gets old! He has been fishing for fun and sport for over 35 years. "The fish
+                in this area don't know how much I know about them." He told Weather Brother, "I have been fishing this
+                creek long enough to have caught their ancestors." He is the 4th generation of fishermen in this area.
+                We asked him what his favorite fish story is, and this is what he said, "When I was just five, my dad
+                took me to the lake. I had never fished before. He had always gone by himself." He told me I was now old
+                enough to learn how to fish quietly. Sure enough, we caught several trout that day. I will never forget
+                what they tasted like roasted over a fire fresh out of the creek. All it took was a little salt and
+                pepper, and I knew I was going to be a fisherman like my dad!" The local Hatchery supports fishing in
+                Fish Haven. We are glad they keep the fish coming for locals and visitors. Keep up the excellent work.
+        </div>
+
+
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+        <date></date>
+        <div class="contact">
+            <h2> Contact Information</h2><br> &#9742 907-205-9010 <br> &#128231: mmchadwick@gci.net
+        </div>
+
+        <img src="images/mapidaho959X291.png" alt="map of preston">
+
+        </div>
+        </div>
+        <p>&copy; Weather Brother|Mandy Chadwick|WDD 230|BYUI </p>
+
+
+
+
+
+
+
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+
+                <img src="images/facebooksmall.png" alt="Facebook" width="60px" height="60px">
+
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.jpg" alt="Instagram" width="60px" height="60px">
+            </a>
+
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtubesmall.png" alt="Youtube" width="60px" height="60px">
+            </a>
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+     <title>Storm Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Brother Storm Center Page">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="CSS/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="CSS/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="CSS/large.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/windchilljs.js"></script>
+    <script defer src="js/lazyload.js"></script>
+
+</head>
+
+<body>
+
+ 
+    <br>
+    <!-- HEADER HERE -->
+    <header>
+        <header>
+            <picture>
+                <img src="images/weatherbrothericon.png">
+            </picture>
+            <section class="headings">
+                <h1>Weather Brother</h1>
+                <div class="m">When you want to play we show you the day!</div>
+            </section>
+        </header>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Storm Center</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend> Your Information</legend>
+                <label class="top"> Full Name*<input type="text" pattern="[A-Za-z ]{5,}" name="fullname"></label>
+                <label class="top"> Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top"> Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top"> Zipcode<input type="text" name="Zipcode" placeholder="12345" required
+                        pattern=[0-9]{5}></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Storm Information</legend>
+                <label class="storm"> Storm Date<input type="date" name="date"></label>
+
+
+                <!--<label for="severity">Storm Type:</label>
+        <input list="type" name="type" id="type">
+        <datalist id="type">
+          <option value="Flash Flood">
+          <option value="Hail">
+          <option value="Hurricane">
+          <option value="Thunderstorm">
+          <option value="Tornado">
+
+              
+        </datalist>
+        <-->
+                <br>
+                <label class="storm" for="browser">Choose A Storm Type:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+
+                <label class="storm">
+                    <p>Choose Storm Severity From 1 to 10</p>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue"></span>
+                </label>
+
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+
+
+                <label class="storm" for="region">Storm Region:</label>
+                <select id="region" name="regionlist" form="weatherform">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend> Are You In Danger?</legend>
+                <label class="danger">
+                    <label class="danger" for="yes">Yes</label>
+                    <input type="radio" id="yes" name="indanger" value="yes">
+                    <label class="danger" for="css">No</label>
+                    <input type="radio" id="no" name="indanger" value="no">
+                    <label class="storm" for="maybe">Maybe</label>
+                    <input type="radio" id="maybe" name="indanger" value="maybe">
+
+            </fieldset>
+
+            <fieldset>
+                <!-- <legend> More Information</legend>
+        <label class="bottom"> More Information<input type="text" name="information" required min="5"></label>
+       
+       -->
+                <legend> Please give us a bit more information:</legend>
+                <label class="textbox" for="msg"></label>
+                <textarea id="msg" name="user_message"></textarea>
+            </fieldset>
+            <input type="submit" value="Register A Storm" class="submitBtn">
+        </form>
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+        <date></date>
+        <div class="contact">
+            <h2> Contact Information</h2><br> &#9742 907-205-9010 <br> &#128231: mmchadwick@gci.net
+        </div>
+
+        <img src="images/mapidaho959X291.png" alt="map of preston">
+
+        </div>
+        </div>
+        <p>&copy; Weather Brother|Mandy Chadwick|WDD 230|BYUI </p>
+
+
+
+
+
+
+
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+
+                <img src="images/facebooksmall.png" alt="Facebook" width="60px" height="60px">
+
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.jpg" alt="Instagram" width="60px" height="60px">
+            </a>
+
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtubesmall.png" alt="Youtube" width="60px" height="60px">
+            </a>
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
