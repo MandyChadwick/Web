@@ -14,7 +14,7 @@ theweekday[6] = "Saturday";
 fetch(forecast)
   .then((response) => response.json())
   .then((dayForecast) => {
-    console.log(dayForecast);
+   // console.log(dayForecast);
 
     const fivedayforecast = dayForecast.list.filter((forecast) =>
       forecast.dt_txt.includes("18:00:00")
