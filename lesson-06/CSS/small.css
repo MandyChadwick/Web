@@ -1,3 +1,6 @@
+/*---------------for div that holds town json events---------*/
+#eventspreston, #eventssodasprings, #eventsfishhaven {display:flex;
+}
 
 
 /* --------------Form-------------*/
