@@ -1,0 +1,39 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    .lazymontage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .lazyload:hover {
+        box-shadow: 20px 20px 30px 15px dimgrey;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem
+    }
+
+
+    /*end large */
+
+
+    .card {
+        display: grid;
+        grid-template-columns: 275px 270px 265px;
+
+    }
+
+    section {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+/* nav ul.hide {display: flex; 
+    justify-content: center;
+      }*/}
