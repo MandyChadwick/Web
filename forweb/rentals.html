@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scoots Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Preston Weather Brother Page">
+
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="CSS/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="CSS/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="CSS/large.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <script defer src="js/banner.js"></script>
+
+    <script defer src="js/json.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- HEADER HERE -->
+    <header>
+
+       
+            <img src="images/Scootsicon.jpg" class="scoots"  alt="Scoots Icon">
+ 
+        <section class="headings">
+            <h1>Scoots Rental Company</h1>
+            <h2>Come Drive In The Sun and Surf!</h2>
+
+        </section>
+
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>
+
+
+
+
+<div>
+    <table class='rental-table'>
+        <thead>
+            <tr>
+                <th colspan="6">
+                    Max Persons and Price Chart
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2"></th>
+                <th colspan="2">Reservations</th>
+                <th colspan="2">Walk Ins</th>
+            </tr>
+            <tr>
+                <th>Rental Type</th>
+                <th>Max. Persons</th>
+                <th>Half Day (3 hrs)</th>
+                <th>Full Day</th>
+                <th>Half Day (3 hrs)</th>
+                <th>Full Day</th>
+            </tr>
+            <tr class ="metroscoot">
+                <td><img src="images/hondametroscooter200x200.jpg" alt="scooter" width=100><br><span id="met-name"></span>
+                </td>
+                <td><span id="met-max"></span></td>
+                <td><span id="res-met-half"></span></td>
+                <td><span id="res-met-full"></span></td>
+                <td><span id="in-met-half"></span></td>
+                <td><span id="in-met-full"></span></td>
+                
+
+            <tr class="dio">
+                <td><img src="images/hondadio200x200.jpg" alt="scooter" width=100><br><span id="dio-name"></span></td>
+                <td><span id="dio-max"></span></td>
+                <td><span id="res-dio-half"></span></td>
+                <td><span id="res-dio-full"></span></td>
+                <td><span id="in-dio-half"></span></td>
+                <td><span id="in-dio-full"></span></td>
+            </tr>
+            <tr class="pcx">
+                <td><img src="images/pxz150scoot200x200.jpg" alt="scooter" width=100><br><span id="pcx-name"></span></td>
+                <td><span id="pcx-max"></span></td>
+                <td><span id="res-pcx-half"></span></td>
+                <td><span id="res-pcx-full"></span></td>
+                <td><span id="in-pcx-half"></span></td>
+                <td><span id="in-pcx-full"></span></td>
+            </tr>
+            <tr class="atv1">
+                <td><img src="images/pioneeratv200x200.jpg" alt="all terrain vehicle" width=100><br><span
+                        id="atv-name"></span></td>
+                <td><span id="atv-max"></span></td>
+                <td><span id="res-atv-half"></span></td>
+                <td><span id="res-atv-full"></span></td>
+                <td><span id="in-atv-half"></span></td>
+                <td><span id="in-atv-full"></span></td>
+            </tr>
+            <tr class="atv2">
+                <td><img src="images/jeep4door200x200.jpg" alt="jeep" width=100><br><span id="4door-name"></span></td>
+                <td><span id="4door-max"></span></td>
+                <td><span id="res-4door-half"></span></td>
+                <td><span id="res-4door-full"></span></td>
+                <td><span id="in-4door-half"></span></td>
+                <td><span id="in-4door-full"></span></td>
+            </tr>
+            <tr class="jeep2">
+                <td><img src="images/jeepwrangler2door200x200.jpg" alt="jeep" width=100><br><span id="2door-name"></span></td>
+                <td><span id="2door-max"></span></td>
+                <td><span id="res-2door-half"></span></td>
+                <td><span id="res-2door-full"></span></td>
+                <td><span id="in-2door-half"></span></td>
+                <td><span id="in-2door-full"></span></td>
+            </tr>
+        </tbody>
+ 
+    </table>
+</div>
+<button onclick="window.location.href='reservations.html'">Reserve Your Ride Today!</button>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+       
+        
+        
+        Scoots Contact Information: &#9742; 907-205-9010 &#128231;: mmchadwick@gci.net
+               
+         
+       
+       <div class="social">
+                   <a href="https://www.facebook.com" target="_blank">
+                 
+                 <img src="images/facebooksmall.png" alt="Facebook" width="60" height="60">
+                     
+                   </a>
+                 
+                  <a href="https://www.instagram.com" target="_blank">
+                   <img src="images/instagram.jpg" alt="Instagram" width="60" height="60">
+                 </a>
+                   
+                   <a href="https://www.youtube.com" target="_blank">
+                   <img src="images/youtubesmall.png"  alt="Youtube" width="60" height="60">
+                     </a>
+                 </div>
+                 <p>&copy; Scoots|Mandy Chadwick|WDD 230|BYUI </p>
+       
+       </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
