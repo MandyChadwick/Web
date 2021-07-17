@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scoots Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Preston Weather Brother Page">
+
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <!-- phone -->
+    <link href="CSS/small.css" rel="stylesheet">
+    <!-- -tablet -->
+    <link href="CSS/medium.css" rel="stylesheet">
+    <!---desktop -->
+    <link href="CSS/large.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/windchilljs.js"></script>
+    <script defer src="js/weather-api.js"></script>
+    <script defer src="js/forcast.js"></script>
+
+
+</head>
+
+<body>
+
+    <br>
+    <!-- HEADER HERE -->
+    <header>
+
+
+        <img src="images/Scootsicon.jpg" class="scoots" alt="Scoots Icon">
+        
+
+        <section class="headings">
+            <h1>Scoots Rental Company</h1>
+            <h2>Come Drive In The Sun and Surf!</h2>
+
+        </section>
+
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>
+        <div>
+            <picture>
+                <source media="(min-width: 850px)" srcset="images/1500/city1500.jpg">
+                <source media="(min-width: 650px)"
+                    srcset="images/1000x485/1000x485city.jpg">
+                <source media="(min-width: 400px)" srcset="images/500x242/city500x242.jpg">
+                <img src="images/500x242/city500x242.jpg" alt="Bannerimage">
+            </picture>
+        </div>
+        <!--<img src="images/contactexplanation.png" alt="contact place holder">-->
+        
+
+            <form method="get" action="thanksforquestion.html">
+                <fieldset>
+                    <legend> How May We Contact You?</legend>
+                    <label class="top"> Full Name*<input type="text" pattern="[A-Za-z ]{5,}"
+                        name="fullname" ></label>
+                    <label class="top"> Email*<input
+                            type="email" name="email" placeholder="someone@gmail.com" ></label>
+                    <label class="top"> Phone<input type="tel" name="phone" placeholder="1235551234" required ></label> 
+                    <label class="top"> Zipcode<input type="text" name="Zipcode" placeholder="12345" required pattern=[0-9]{5} ></label>
+                    
+                </fieldset>
+                
+                <fieldset>
+
+                   <legend> Send Us Your Questions:</legend>
+                   <label class="textbox" for="msg"></label>
+                   <textarea id="msg" name="user_message"></textarea>
+                </fieldset>
+            <input type="submit"value="Send Questions To Scoots" class="submitBtn">
+            </form>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59789.608921850086!2d-86.9713825870489!3d20.51235158763063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58330a673659%3A0x9cedf516c7d86e9a!2sSan%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1625965439521!5m2!1sen!2sus"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+       
+        
+        
+        Scoots Contact Information: &#9742; 907-205-9010 &#128231;: mmchadwick@gci.net
+               
+         
+       
+       <div class="social">
+                   <a href="https://www.facebook.com" target="_blank">
+                 
+                 <img src="images/facebooksmall.png" alt="Facebook" width="60" height="60">
+                     
+                   </a>
+                 
+                  <a href="https://www.instagram.com" target="_blank">
+                   <img src="images/instagram.jpg" alt="Instagram" width="60" height="60">
+                 </a>
+                   
+                   <a href="https://www.youtube.com" target="_blank">
+                   <img src="images/youtubesmall.png"  alt="Youtube" width="60" height="60">
+                     </a>
+                 </div>
+                 <p>&copy; Scoots|Mandy Chadwick|WDD 230|BYUI </p>
+       
+       </footer>
+       
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
